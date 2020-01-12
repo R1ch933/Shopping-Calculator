@@ -1,0 +1,45 @@
+#container {
+  height: 450px;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+h1 {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+p {
+  padding-left: 20px;
+}
+#measurement {
+  margin-left: 20px;
+}
+#quantity-input {
+  margin-left: 20px;
+
+  width: 272px;
+}
+#calc {
+  margin-left: 120px;
+  width: 100px;
+  height: 25px;
+  margin-top: 40px
+}
+#output{
+  margin-top: 50px;
+  width: 200px;
+  margin-left: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+#output:before {
+  content: "You're Paying: ";
+  font-weight: bold;
+}
+#calc {
+  margin-left: 130px;
+}
